@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+  <link href="dist/css/datepicker.css" rel="stylesheet" />
+  <link href="dist/css/style.css" rel="stylesheet" />
+  <title>Tesla stock</title>
+</head>
+<body>
+  <div class="charts">
+    <div id="range">
+      <span>Från</span>
+      <input type="text" name="start">
+      <span>Till</span>
+      <input type="text" name="end">
+    </div>  
+    <div class="ct-chart ct-perfect-fourth"></div>  
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+  <script src="dist/js/stocks.js"></script>
+  <script src="app.js"></script>
+  <script src="dist/js/datepicker-full.js"></script>
+</body>
+</html>
